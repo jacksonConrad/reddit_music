@@ -130,7 +130,7 @@ def is_song(title, submission_id):
             return True
         else:
             # print "{} NO MATCH".format(title)
-            # TODO: output rejected titles into a file
+            # TODO: log rejected titles into a file
             return False
     except UnicodeEncodeError:
         log.error("Unicode Encode Error for: {}".format(title))
