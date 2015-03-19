@@ -1,1 +1,7 @@
 praw.ini
+.Python
+bin
+include
+lib
+*.pyc
+*.db
